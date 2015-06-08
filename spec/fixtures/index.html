@@ -1,8 +1,12 @@
 ---
-test:
-    - "It's working"
-    - "Ellipsis..."
-    - "#hashtag"
+layout: null
 ---
 
-Each test should be an item in `page.test`
+{% capture XML %}
+<xml>
+    <li />
+    <li />
+    <meta name="d" content="" />
+    <li>a</li>
+</xml>
+{% endcapture %}{{ XML | xmlify }}

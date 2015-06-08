@@ -16,18 +16,7 @@ describe(Jekyll) do
   before(:each) do
     site.process
   end
-
-  it "converts quotes into curly quotes" do
-    expect(contents).to match /It&rsquo;s working/
-    expect(contents).to_not match /It's working/
-  end
-
   it "converts dots into an ellipsis" do
-    expect(contents).to match /Ellipsis&hellip;/
-    expect(contents).to_not match /Ellipsis\.\.\./
-  end
-
-  it "does not convert to Markdown" do
-    expect(contents).to match /#hashtag/
+    expect(contents).to_not match />\s+</
   end
  end
