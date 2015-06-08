@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-xmlify"
-  spec.summary       = "Adds Jekyll filter to minify sections of XML"
+  spec.summary       = "Liquid filter to minify sections of XML"
   spec.version       = "0.0.1"
   spec.authors       = ["Pat Hawks"]
   spec.email         = "pat@pathawks.com"

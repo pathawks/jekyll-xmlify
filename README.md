@@ -1,21 +1,21 @@
-# Jekyll Smartify
+# Jekyll XMLify
 
 *SmartyPants filter for Jekyll*
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-smartify.svg)](https://rubygems.org/gems/jekyll-smartify)
-[![Build Status](https://img.shields.io/travis/pathawks/jekyll-smartify/master.svg)](https://travis-ci.org/pathawks/jekyll-smartify)
-[![Dependency Status](https://img.shields.io/gemnasium/pathawks/jekyll-smartify.svg)](https://gemnasium.com/pathawks/jekyll-smartify)
+[![Gem Version](https://img.shields.io/gem/v/jekyll-xmlify.svg)](https://rubygems.org/gems/jekyll-xmlify)
+[![Build Status](https://img.shields.io/travis/pathawks/jekyll-xmlify/master.svg)](https://travis-ci.org/pathawks/jekyll-xmlify)
+[![Dependency Status](https://img.shields.io/gemnasium/pathawks/jekyll-xmlify.svg)](https://gemnasium.com/pathawks/jekyll-xmlify)
 
-Make your &quot;quotes&quot; &ldquo;curly&rdquo;
+Liquid filter to minify sections of XML
 
 ## Usage
 
-1. Add `gem 'jekyll-smartify'` to your site's Gemfile and run `bundle`
+1. Add `gem 'jekyll-xmlify'` to your site's Gemfile and run `bundle`
 2. Add the following to your site's `_config.yml`:
 
 ```yml
 gems:
-  - jekyll-smartify
+  - jekyll-xmlify
 ```
 
 ## Testing
