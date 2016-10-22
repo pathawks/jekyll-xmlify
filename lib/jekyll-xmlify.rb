@@ -2,7 +2,7 @@ require 'redcarpet'
 
 module XMLify
   def xmlify(input)
-    input.gsub(/\s*\n\s*/, " ").gsub(/>\s+</, "><").gsub(/(['"])\s+(\/?)>/, '\1\2>').strip
+    input.strip.gsub(%r!(?<=[^\s]\s)\s+(?=[^\s])|(?<=>)\s+(?=<)|\s+(?=\\>)!, "".freeze)
   end
 end
 
